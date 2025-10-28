@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies and build site (if needed)
         run: |
           npm install
-          npm run build
+          npm run build:all
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
